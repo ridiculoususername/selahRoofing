@@ -1,11 +1,17 @@
 import React from 'react'
 
-const News = () => {
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const NewsPage = () => {
     return (
+        <Layout>
+        <SEO title="News" />
         <div>
             <h1>News</h1>
         </div>
+        </Layout>
     )
 }
 
-export default News;
+export default NewsPage;
