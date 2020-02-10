@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Selah Roofing`,
+    description: `Selah Roofing is a roofing service based out of commerce california. Call now to see if we can meet your roofing needs`,
+    author: `@lorenzolevy`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
