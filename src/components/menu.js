@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Menu = () => (
         <div style={{
             background: '#f4f4f4',
-            paddingTop: '10px'
+            paddingTop: '0.5em'
         }}>
         <ul style={{
             listStyle: 'none',
