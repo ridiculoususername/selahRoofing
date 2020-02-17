@@ -1,16 +1,10 @@
 import React from 'react'
 import { Link } from "gatsby"
+import menuStyles from '../styles/menu.module.scss'
 
 const Menu = () => (
-        <div style={{
-            background: '#f4f4f4',
-            paddingTop: '1em'
-        }}>
-        <ul style={{
-            listStyle: 'none',
-            display: 'flex',
-            justifyContent: 'space-evenly'
-        }}>
+        <div>
+        <ul className={menuStyles.navList}>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/contact">Contact</Link></li>
             <li><Link to="/services">Services</Link></li>
@@ -20,4 +14,4 @@ const Menu = () => (
 )
 
 
-export default Menu; 
+export default Menu

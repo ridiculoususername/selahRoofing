@@ -1,9 +1,14 @@
-import React from 'react'
+import { Link } from "gatsby"
 
-export default function footer() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+import React from "react"
+
+import footerStyles from '../styles/footer.module.scss'
+
+const Footer = () => (
+  
+    <div>
+      <h1>Footer</h1>
+    </div>
+)
+
+export default Footer
